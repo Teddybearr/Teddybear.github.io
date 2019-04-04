@@ -1,13 +1,8 @@
-/*!
- * Start Bootstrap - Resume v5.0.5 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
-
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: #5C5757;
+  background-color: #EFECEC;
 }
 
 @media (min-width: 992px) {
@@ -26,7 +21,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #363434;
 }
 
 h1 {
@@ -72,7 +67,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #62929A;
 }
 
 .dev-icons {
@@ -80,7 +75,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #62929A;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -91,6 +86,20 @@ p.lead {
 
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
+}
+
+#sideNav .button-resume {
+  background-color: #efecec;
+  color: #5C5757;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  margin: 2rem auto;
+  max-width: 10rem;
+}
+
+#sideNav .button-resume:hover {
+  background-color: #5C5757;
+  color: #EFECEC;
 }
 
 @media (min-width: 992px) {
@@ -149,7 +158,33 @@ p.lead {
   }
 }
 
+#about .about-background {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+#about .about-filter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #efecec;;
+  opacity: 0.7;
+}
+
+#about {
+  color: #363434;
+}
+
 section.resume-section {
+  position: relative;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
@@ -176,17 +211,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #62929A !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #62A29F !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #62929A;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #406c6e;
 }
